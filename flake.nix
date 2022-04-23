@@ -19,7 +19,7 @@
 
     packages.x86_64-linux.nodejs_18 = self.packages.x86_64-linux.nodejs;
 
-    defaultPackage.x86_64-linux = self.packages.x86_64-linux.nodejs;
+    packages.x86_64-linux.default = self.packages.x86_64-linux.nodejs;
 
   };
 }
